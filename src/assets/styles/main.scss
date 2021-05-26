@@ -1,0 +1,18 @@
+#root {
+  font-family: "Roboto", "Tahoma", sans-serif;
+  width: 1366px;
+  margin: 0 auto;
+  color: #1F1E25
+};
+
+.visually-hidden {
+  display: none;
+}
+
+@import './normalize.css';
+@import '../styles/fonts.scss';
+@import '../components/header/header.scss';
+@import '../components/intro/intro.scss';
+@import '../components/main/main.scss';
+@import '../components/history-list/history-list.scss';
+@import '../components/footer/footer.scss'

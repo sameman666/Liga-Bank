@@ -1,0 +1,44 @@
+.main__intro {
+  min-height: 400px;
+  background-color: #2027B3;
+  background-image: url('./images/cards.png'), url('./images/background.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom 52px right 224px, center;
+  padding-top: 102px;
+  box-sizing: border-box;
+  padding-left: 270px;
+}
+
+.main__intro-decription {
+  color: #FFFFFF;
+}
+
+.main__intro-title {
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  margin: 0;
+}
+
+.main__intro-text {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.15px;
+  margin: 0;
+  margin-top: 9px;
+}
+
+.main__intro-button {
+  width: 234px;
+  min-height: 53px;
+  border: none;
+  border-radius: 4px;
+  background-color: #F6F7FF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-top: 33px;
+  padding-right: 9px;
+  cursor: pointer;
+}

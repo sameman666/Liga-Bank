@@ -1,0 +1,134 @@
+.footer {
+  min-height: 224px;
+  padding: 0 98px;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 49px;
+  background-color: #F6F7FF;
+}
+
+.footer__text {
+  font-size: 12px;
+  color: #707C87;
+  line-height: 16px;
+}
+
+.footer__logo {
+  width: 320px;
+  padding-right: 60px;
+  box-sizing: border-box;
+}
+
+.footer__menu {
+  width: 150px;
+  list-style: none;
+  margin: 0;
+  padding-left: 13px;
+  padding-top: 6px;
+}
+
+.footer__menu li {
+  margin-bottom: 9px;
+}
+
+.footer__menu a,
+.footer__contacts a {
+  color: #1F1E25;
+}
+
+.footer__menu a:visited,
+.footer__contacts a:visited {
+  color: #1F1E25;
+}
+
+.footer__menu a:hover,
+.footer__contacts a:hover {
+  color: #2C36F2;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.footer__contacts {
+  margin-left: 105px;
+  display: grid;
+  grid-template-columns: 170px 247px;
+  padding-top: 8px;
+}
+
+.footer__contacts .footer__text {
+  margin: 0;
+}
+
+.footer__free-mobile {
+  position: relative;
+}
+
+.footer__free-mobile::before {
+  content: "";
+  width: 10px;
+  height: 16px;
+  position: absolute;
+  background-image: url('./images/phone.svg');
+  background-repeat: no-repeat;
+  left: -31px;
+}
+
+.footer__free-all::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background-image: url('./images/old_phone.svg');
+  background-repeat: no-repeat;
+  left: -34px;
+}
+
+.footer__free-all {
+  margin-left: 108px;
+  position: relative;
+}
+
+.footer__social {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-top: 12px;
+  padding-left: 31px;
+  flex-wrap: wrap;
+  width: 130px;
+}
+
+.footer__social-link {
+  position: relative;
+  margin-left: 29px;
+}
+
+.footer__social-link:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer__social-link--facebook:before {
+  background-image: url('./images/facebook.svg');
+}
+
+.footer__social-link--instagram:before {
+  background-image: url('./images/instagram.svg');
+}
+
+.footer__social-link--twitter:before {
+  background-image: url('./images/twitter.svg');
+}
+
+.footer__social-link--youtube:before {
+  background-image: url('./images/youtube.svg');
+}
