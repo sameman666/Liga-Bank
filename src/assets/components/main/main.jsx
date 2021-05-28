@@ -26,19 +26,10 @@ const Main = (props) => {
   }
 
   const returnCurrentRate = (currency) => {
-    switch (currency) {
-      case Currency.RUB:
-        return 1;
-      case Currency.USD:
-        return props.data.rates.Valute.USD.Value;
-      case Currency.EUR:
-        return props.data.rates.Valute.EUR.Value;
-      case Currency.CNY:
-        return props.data.rates.Valute.CNY.Value;
-      case Currency.GBP:
-        return props.data.rates.Valute.GBP.Value;
-      default:
-        return null;
+    if (currency === Currency.RUB) {
+      return 1;
+    } else {
+      return props.data.rates.Valute[currency].Value;
     }
   };
 
