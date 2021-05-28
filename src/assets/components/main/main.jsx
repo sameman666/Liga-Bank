@@ -10,7 +10,6 @@ import {createStories, clearStories, handleUserHas, handleUserWant, handleUserHa
 import PropTypes from 'prop-types';
 
 const Main = (props) => {
-  console.log(props)
   const has = useRef();
   const want = useRef();
 
